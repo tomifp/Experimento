@@ -26,6 +26,9 @@ public class git {
         System.out.println("Ingresa tu nombre");
         String nombre = read.next();
         System.out.println("Hola " + nombre);
+        System.out.println("ingresa tu altura");
+        int altura = read.nextInt();
+        System.out.println(nombre + " : " + altura);
     }
     
 }
